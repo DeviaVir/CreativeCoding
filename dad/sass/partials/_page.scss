@@ -59,11 +59,10 @@ body {
 }
 
 #sharing_container {
-	margin: 0;
+	margin: 100px auto 0;
 	padding: 0;
-	position: absolute;
-	top: 100px;
-	width: 350px;
+	overflow: hidden;
+	width: 500px;
 	background: white;
 	border-radius: 5px;
 	padding: 10px;
@@ -71,13 +70,19 @@ body {
 	p {
 		width: 100px;
 		float: left;
+		font-family: "ExistenceLight";
+		font-size: 18px;
+		color: black;
+		margin: 133px 0 0 67px;
+		padding: 0;
 	}
 	
 	img {
 		border: 0;
 		outline: 0;
 		width: 230px;
-		float: left;
+		float: right;
+		border-radius: 45px;
 	}
 }
 
